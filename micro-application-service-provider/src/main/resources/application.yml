@@ -1,11 +1,8 @@
 
 #spring
 spring:
-  devtools:
-    restart:
-      enabled: false
 
-  # H2 DATABASE CONFIG
+# H2 DATABASE CONFIG
 #  datasource:
 #    type: com.zaxxer.hikari.HikariDataSource
 #    schema: classpath:/db/schema-h2.sql
