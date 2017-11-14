@@ -18,6 +18,7 @@ public class UserServceImpl implements UserServiceApi {
     private IDBUserService userService;
     @Override
     public List<UserDto> findUsers() {
+
         Wrapper wrapper = new EntityWrapper();
         wrapper.where("username={0}","xuxiping");
         List<UserModel> userLst =  userService.selectList(wrapper);
