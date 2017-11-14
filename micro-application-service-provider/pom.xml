@@ -56,6 +56,11 @@
 
 		<!--mybatis-plus-->
 		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatisplus-spring-boot-starter</artifactId>
 			<version>${mybatisplus-spring-boot-starter.version}</version>
@@ -76,7 +81,10 @@
 			<version>6.0.6</version>
 		</dependency>
 		<!--数据源-->
-
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
