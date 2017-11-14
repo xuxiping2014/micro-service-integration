@@ -1,4 +1,4 @@
-package spring.cluod.microserviceregistratcenter;
+package spring.cluod.application;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

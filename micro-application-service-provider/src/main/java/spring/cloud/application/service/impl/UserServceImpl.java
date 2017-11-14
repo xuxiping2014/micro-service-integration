@@ -1,4 +1,4 @@
-package spring.cloud.microapplicationserviceprovider.impl;
+package spring.cloud.application.service.impl;
 
 import org.springframework.web.bind.annotation.RestController;
 import spring.cloud.remote.model.UserModel;
